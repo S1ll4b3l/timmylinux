@@ -23,14 +23,14 @@ def print_menu():
 
 def run_tool(option):
     if option == '1':
-        subprocess.run(['python', 'port_scanner.py'])
+        subprocess.run(['sudo', 'python3', 'port_scanner.py'])
     elif option == '2':
-        process = subprocess.Popen(['python', 'network_traffic_monitor.py'])
+        process = subprocess.Popen(['sudo', 'python3', 'network_traffic_monitor.py'])
         print("Press 'q' and Enter to stop monitoring...")
         process.wait() 
         print("Monitoring stopped. Returning to main menu...")
     elif option == '3':
-        subprocess.run(['python', 'network_scanner.py'])
+        subprocess.run(['sudo', 'python3', 'network_scanner.py'])
     elif option == '4':
         print("Exiting Timmy. Goodbye!")
         exit()
@@ -39,7 +39,7 @@ def run_tool(option):
 
 def main():
     while True:
-        os.system('cls')  
+        os.system('cls' if os.name == 'nt' else 'clear')  
         print_logo()
         print_menu()
         choice = input("\nEnter your choice: ")
