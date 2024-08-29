@@ -26,5 +26,6 @@ Execute timmylinux by requesting permission to the root
 ```bash
 sudo python3 timmy.py
 ```
+[Watch the demo here!](https://youtu.be/irsqEGL-teg)
 
 ##  Thanks for using Timmy and see you around!
