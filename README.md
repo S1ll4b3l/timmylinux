@@ -27,4 +27,4 @@ Execute timmylinux by requesting permission to the root
 sudo python3 timmy.py
 ```
 
-## HappyUsing!!! Thanks for using Timmy, see you around!
+##  Thanks for using Timmy and see you around!
