@@ -2,6 +2,12 @@
 
 **TimmyLinux** is a basic network monitoring tools. It can be used for 3 different purposes, network scanning, port scanning, and network traffic monitoring.
 
+**1. Network Scanner**, you can use it to scan any devices that connected to your local network, such as your own wifi, etc.
+
+**2. Network Traffic Monitoring**, you can use it to maintain your own server by watching any network traffic coming to your own server, can be use to prevent net flood, etc.
+
+**3. Port Scanner**, you can use it to scan for any open port on the targeted ip that you find after doing network scanning.
+
 ![Timmy Logo](image/timmylogo.jpg)
 
 
