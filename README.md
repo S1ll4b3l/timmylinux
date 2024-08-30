@@ -33,5 +33,6 @@ Execute timmylinux by requesting permission to the root
 sudo python3 timmy.py
 ```
 [Watch the demo here!](https://youtu.be/irsqEGL-teg)
+[See my presentation here!](https://www.canva.com/design/DAGPPHZhE5k/DGWbzEBQhMHU5UAvPZvu8Q/view?utm_content=DAGPPHZhE5k&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ##  Thanks for using Timmy and see you around!
